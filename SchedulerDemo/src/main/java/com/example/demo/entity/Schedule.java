@@ -1,11 +1,11 @@
-package com.scheduler.bean;
+package com.example.demo.entity;
 
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "tbl_schedule")
+@Table(name = "schedule")
 public class Schedule {
 	@EmbeddedId
 	private ScheduleId id; 
